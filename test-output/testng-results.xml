@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-03T20:22:56 CDT" name="Default suite" finished-at="2023-04-03T20:23:02 CDT" duration-ms="6283">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T20:22:56 CDT" name="Default test" finished-at="2023-04-03T20:23:02 CDT" duration-ms="6283">
+      <class name="testngapp.MyTestNG">
+        <test-method is-config="true" signature="readProp()[pri:0, instance:testngapp.MyTestNG@3d5c822d]" started-at="2023-04-03T20:22:56 CDT" name="readProp" finished-at="2023-04-03T20:22:56 CDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readProp -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngapp.MyTestNG@3d5c822d]" started-at="2023-04-03T20:22:56 CDT" name="launchBrowser" finished-at="2023-04-03T20:22:58 CDT" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest()[pri:0, instance:testngapp.MyTestNG@3d5c822d]" started-at="2023-04-03T20:22:58 CDT" name="loginTest" finished-at="2023-04-03T20:22:59 CDT" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngapp.MyTestNG@3d5c822d]" started-at="2023-04-03T20:22:59 CDT" name="launchBrowser" finished-at="2023-04-03T20:23:01 CDT" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="negLoginTest()[pri:0, instance:testngapp.MyTestNG@3d5c822d]" started-at="2023-04-03T20:23:01 CDT" name="negLoginTest" finished-at="2023-04-03T20:23:02 CDT" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negLoginTest -->
+      </class> <!-- testngapp.MyTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
